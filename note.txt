@@ -1,0 +1,19 @@
+1---
+https://www.youtube.com/watch?v=3elGSZSWTbM&ab_channel=KevinPowell
+
+important point about thing flex   every direct child will become a column 
+even if that means there will be some overflow that mean we can get some horizental
+scroll
+whereas grid that wont realy give you that problem by default beacuse when trun it on
+nothing happen this is because well with  
+a flex container display flex default here is flex direction of row that mean 
+the parent is a row so the main axis is the row and 
+flex-direction: row;
+that means all the children inside of it becoming columns
+grid-auto-flow: column;
+thats the opposite behavior that we have in grid where the deafult behavior 
+is a grid auto flow 
+if prevent over flow use   
+flex  --> flex-wrap: wrap;
+grid --> grid-template-columns: repeat(4,1fr);or  1fr 1fr 1fr 1fr
+
