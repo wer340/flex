@@ -24,3 +24,29 @@ div:not([class]){
     outline: 2px solid black;
     padding: 0.5rem;
 }
+.grid-cotainer-photo{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+
+}
+.grid-cotainer-photo>*{
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.flex-cotainer-photo{
+    
+display: flex;
+flex-wrap: wrap;
+/* gap: 3em; */
+
+}
+
+.flex-cotainer-photo > * {
+    flex-grow: 1;
+    flex-basis: 32%;
+    
+     
+}
