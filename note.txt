@@ -13,7 +13,29 @@ that means all the children inside of it becoming columns
 grid-auto-flow: column;
 thats the opposite behavior that we have in grid where the deafult behavior 
 is a grid auto flow 
+
 if prevent over flow use   
 flex  --> flex-wrap: wrap;
 grid --> grid-template-columns: repeat(4,1fr);or  1fr 1fr 1fr 1fr
+
+actually have flexbox creating a two-dimensional layout in a way up here and then here we have grid also
+making a two dimensional layout  they are doing it different ways    they have different constraints in different
+ways that they are creating this but its important to know that flexbox can wrap and flexbox can do what what we think  of
+as a two dimensional layout  whats important with this is its the way that we can control that layout that is one-dimensional 
+way we can think about that too is each one of ✅these rows is independant from next one , row independent from the row above it 
+its independent from the row below it 
+grid does not work that way  grid is setting things up in a two dimensional grid   so the columns they are locked in this one
+only has this little short word in it  but that column is stretching to match the other columns around it  
+✅grid a little bit more structured and flexbox is little more flexible 
+flex  its come intrinsic sizing of element relying on intrisic sizing but grid  relying struct size parent 
+in flex  i cant actually do alot of more work parent div   for making alot of changing in style  of flex method
+i have to come children element   div > *{} 
+grid sys   relay on struct parent 
+flex sys  relay on intrinsic elmnent sizing
+flexbox cleaarly when we want this intrinsic sizing of things is just so wonderful and  we just have these items that we want
+to go next to each other if ones  bigger ones smaller we want to keep those sizing flexbox is just wonderful
+grid on the other hand we can use in ways and im not even going to get into like the big scale layout beacuse often for large
+scale layouts its wonderful  it suitable for rigid layout 
+
+
 
